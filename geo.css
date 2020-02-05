@@ -1,0 +1,747 @@
+<<<<<<< HEAD
+body {
+    background-color: rgba(140, 96, 76);
+   
+}
+header {
+    display: flex;
+    justify-content: center;
+    /*
+    background-color: #a6daa9;*/
+    border-radius: 20px;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+#geobanner {
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+#header-rubrik {
+text-align: center;
+display: flex;
+}
+h1 {
+    letter-spacing: -2px;
+}
+#extraruta {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    font-size: 20px;
+    /*
+    background-color:  rgb(55, 107, 62);*/
+    flex-direction: row;
+    width: 17%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+a:hover {
+    color: grey;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        letter-spacing: 2px;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+/* INDEX */
+.geo-main {
+    display: flex;
+}
+#text1 {
+    
+    padding: 15px; 
+    margin: 15px; 
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+}
+#text2 {
+    
+    padding: 15px; 
+    margin: 15px; 
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+} 
+#birdhouse {
+width: 259px;
+height: 194px;
+margin: 20px;
+flex-direction: row;
+padding-left: 15%;
+}
+#vanligaste {
+padding-left: 15%;
+margin: 20px;
+flex-direction: row;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+#micro {
+    width: 260px;
+    height: 195px;
+    padding: 10px;
+}
+p {
+ width: 50%;
+ font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+}
+/*BILDER */
+#bilderna {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.allabilder {
+    cursor: pointer;
+    padding-bottom: 50px;
+    width: 240px;
+    height: 175px;
+}
+/* The expanding image container */
+.container {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+  }
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+/* BUTIK */
+  #påse {
+  width: 100px;
+  height: 120px;
+
+  } 
+  #kundKorg {
+    position: absolute;
+    top: 1px;
+    right: 95px; 
+  }
+  #räknaren {
+    position: absolute;
+    top: 47px;
+    right: 29px;
+    color: white;
+    border: solid red 4px;
+    border-radius: 5px;  
+    background-color: red;
+}
+#butik-handla {
+display: flex;
+width: 80%;
+margin: auto;
+}
+#nödvändigt {
+    border: solid rgba(140, 96, 76);
+    display: flex;
+    flex-direction: column;flex: 1; 
+}
+#gpsen {
+    border: solid rgba(140, 96, 76);
+    display: flex;flex-direction: column;flex: 1; 
+}
+#gömman {
+    border: solid rgba(140, 96, 76);
+    display: flex;flex-direction: column;flex: 1;
+}
+.läggTillVara1 {
+    cursor: pointer;
+    border-radius: 5px; 
+    width: 100px;
+    margin: auto;
+}
+#braattha {
+    
+    border-radius: 5px; margin: auto;
+}
+#gömma {
+  
+    border-radius: 5px; margin: auto;
+}
+#gps {
+   
+    border-radius: 5px; margin: auto;
+}
+.reklamtext{
+    font-size: 12px;
+    margin: auto;
+}
+
+/* KONTAKT */
+
+  input[type=number]::-webkit-inner-spin-button, 			
+  ::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  
+  input[type=text] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   margin-top: 5px;
+  }
+  input[type=number] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  input[type=email] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  input[type=text] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   
+  }
+  textarea {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   
+  }
+  input[type=submit] {
+    background-color: green;
+    margin: 5px;   
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px; 
+  width: auto;
+  padding: 10px;
+}
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content i själva lådan andra diven  */
+  .form {
+    color: black;
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+    height: auto;
+    
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #myBtn {
+    border-radius: 20px;
+    margin: 15px;
+    color: white;
+    font-size: 50px;
+    background-color: red;
+    width: 50px;
+  }
+  
+  #myBtn:hover {
+    
+    border-radius: 15px;
+    margin: 5px;
+    color: white;
+    font-size: 90px;
+    background-color: green;
+    width: 110px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.geo-main {
+    display: flex;
+    flex-direction: column;
+}
+#butik-handla {
+display: flex;
+flex-direction: column;
+}
+#påse {
+    width: 100px;
+    height: 120px;
+  
+    } 
+    #kundKorg {
+      position: absolute;
+      top: 1000px;
+      right: 50px; 
+    }
+  }
+/*
+gps 
+https://www.needpix.com/photo/252649/gps-geocaching-cache-search-geocache-garmin-treasure-hunt
+
+metallgömma
+http://geocachinghobby.blogspot.com/2014/03/a-geocache-container-is-usually.html
+
+bra att ha 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSug1AM5Az6d_FU7XOuAleFnRcBmhYOQZG6hNfck1qxRPXpIvfR&s
+
+banner
+https://www.mcbhawaii.marines.mil/News/News-Article-Display/Article/540103/one-mans-trash-is-another-mans-geocache/
+
+vanlgaste
+https://pixabay.com/photos/geocache-geocaching-cache-small-398019/
+
+micro
+https://www.flickr.com/photos/leecannon/6924609255
+
+holk
+https://www.flickr.com/photos/cadab/7376099716
+
+stubbe
+https://geocachinghobby.blogspot.com/2014/
+
+betong
+https://www.flickr.com/photos/leecannon/6924563351/
+
+Galleri
+https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
+
+Chattfunktionen 
+https://www.w3schools.com/howto/howto_css_modals.asp
+
+Shoppa
+https://www.w3schools.com/jsref/event_onmouseover.asp
+
+
+=======
+body {
+    background-color: rgba(140, 96, 76);
+   
+}
+header {
+    display: flex;
+    justify-content: center;
+    /*
+    background-color: #a6daa9;*/
+    border-radius: 20px;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+#geobanner {
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+#header-rubrik {
+text-align: center;
+display: flex;
+}
+h1 {
+    letter-spacing: -2px;
+}
+#extraruta {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    font-size: 20px;
+    /*
+    background-color:  rgb(55, 107, 62);*/
+    flex-direction: row;
+    width: 17%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+a:hover {
+    color: grey;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+        letter-spacing: 2px;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+/* INDEX */
+.geo-main {
+    display: flex;
+}
+#text1 {
+    
+    padding: 15px; 
+    margin: 15px; 
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+}
+#text2 {
+    
+    padding: 15px; 
+    margin: 15px; 
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+} 
+#birdhouse {
+width: 259px;
+height: 194px;
+margin: 20px;
+flex-direction: row;
+padding-left: 15%;
+}
+#vanligaste {
+padding-left: 15%;
+margin: 20px;
+flex-direction: row;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+#micro {
+    width: 260px;
+    height: 195px;
+    padding: 10px;
+}
+p {
+ width: 50%;
+ font-family: Arial, Helvetica, sans-serif;letter-spacing: 1px;
+}
+/*BILDER */
+#bilderna {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.allabilder {
+    cursor: pointer;
+    padding-bottom: 50px;
+    width: 240px;
+    height: 175px;
+}
+/* The expanding image container */
+.container {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+  }
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+/* BUTIK */
+  #påse {
+  width: 100px;
+  height: 120px;
+
+  } 
+  #kundKorg {
+    position: absolute;
+    top: 1px;
+    right: 95px; 
+  }
+  #räknaren {
+    position: absolute;
+    top: 47px;
+    right: 29px;
+    color: white;
+    border: solid red 4px;
+    border-radius: 5px;  
+    background-color: red;
+}
+#butik-handla {
+display: flex;
+width: 80%;
+margin: auto;
+}
+#nödvändigt {
+    border: solid rgba(140, 96, 76);
+    display: flex;
+    flex-direction: column;flex: 1; 
+}
+#gpsen {
+    border: solid rgba(140, 96, 76);
+    display: flex;flex-direction: column;flex: 1; 
+}
+#gömman {
+    border: solid rgba(140, 96, 76);
+    display: flex;flex-direction: column;flex: 1;
+}
+.läggTillVara1 {
+    cursor: pointer;
+    border-radius: 5px; 
+    width: 100px;
+    margin: auto;
+}
+#braattha {
+    
+    border-radius: 5px; margin: auto;
+}
+#gömma {
+  
+    border-radius: 5px; margin: auto;
+}
+#gps {
+   
+    border-radius: 5px; margin: auto;
+}
+.reklamtext{
+    font-size: 12px;
+    margin: auto;
+}
+
+/* KONTAKT */
+
+  input[type=number]::-webkit-inner-spin-button, 			
+  ::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  
+  input[type=text] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   margin-top: 5px;
+  }
+  input[type=number] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  input[type=email] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  input[type=text] {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   
+  }
+  textarea {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+   
+  }
+  input[type=submit] {
+    background-color: green;
+    margin: 5px;   
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px; 
+  width: auto;
+  padding: 10px;
+}
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content i själva lådan andra diven  */
+  .form {
+    color: black;
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 80%;
+    height: auto;
+    
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #myBtn {
+    border-radius: 20px;
+    margin: 15px;
+    color: white;
+    font-size: 50px;
+    background-color: red;
+    width: 50px;
+  }
+  
+  #myBtn:hover {
+    
+    border-radius: 15px;
+    margin: 5px;
+    color: white;
+    font-size: 90px;
+    background-color: green;
+    width: 110px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.geo-main {
+    display: flex;
+    flex-direction: column;
+}
+#butik-handla {
+display: flex;
+flex-direction: column;
+}
+#påse {
+    width: 100px;
+    height: 120px;
+  
+    } 
+    #kundKorg {
+      position: absolute;
+      top: 1000px;
+      right: 50px; 
+    }
+  }
+/*
+gps 
+https://www.needpix.com/photo/252649/gps-geocaching-cache-search-geocache-garmin-treasure-hunt
+
+metallgömma
+http://geocachinghobby.blogspot.com/2014/03/a-geocache-container-is-usually.html
+
+bra att ha 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSug1AM5Az6d_FU7XOuAleFnRcBmhYOQZG6hNfck1qxRPXpIvfR&s
+
+banner
+https://www.mcbhawaii.marines.mil/News/News-Article-Display/Article/540103/one-mans-trash-is-another-mans-geocache/
+
+vanlgaste
+https://pixabay.com/photos/geocache-geocaching-cache-small-398019/
+
+micro
+https://www.flickr.com/photos/leecannon/6924609255
+
+holk
+https://www.flickr.com/photos/cadab/7376099716
+
+stubbe
+https://geocachinghobby.blogspot.com/2014/
+
+betong
+https://www.flickr.com/photos/leecannon/6924563351/
+
+Galleri
+https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp
+
+Chattfunktionen 
+https://www.w3schools.com/howto/howto_css_modals.asp
+
+Shoppa
+https://www.w3schools.com/jsref/event_onmouseover.asp
+
+
+>>>>>>> 42291981dc0d1d9bf9e42df248f2e3ee1f55542f

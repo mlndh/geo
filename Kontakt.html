@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sökord">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="geo.css">
+    <title>Document</title>
+</head>
+<body>
+      <header> 
+        <div id="extraruta">
+        <h1 id="header-rubik"> Malins geocaching sida</h1>
+        <img id="geobanner" src="banner.jpg" alt="Geocaching"> <!-- Bilde är lånad ifrån https://www.mcbhawaii.marines.mil/News/News-Article-Display/Article/540103/one-mans-trash-is-another-mans-geocache/ --></div>
+        <nav>
+                <a id="a" href="index.html">Start</a> 
+                <a id="b" href="Galleri.html">Galleri</a> 
+                <a id="c" href="Butik.html">Butik</a> 
+                <a id="d" href="Kontakt.html">Kontakt</a> 
+        </nav>
+    </header>
+    <main>
+            <form> 
+                      <span id="ändras"> Fyll i formuläret eller tryck på frågetecknet för hjälp.</span>              
+                   <input type="text" id="texten" placeholder="* Namn"> <br>
+                   <input type="number" id="nummer" placeholder="* Tlfnnr"> <br>
+                   <input type="email" id="mejl" placeholder="* Mejl"> <br>
+                   <input type="text" id="rubrik" placeholder="Rubrik"> <br>
+                   <textarea rows="4" cols="25"> </textarea> <br>
+                   <input id="submit" type="submit"> 
+           </form>
+
+
+           <div id="myModal" class="modal">
+
+            <div class="form">
+                <span class="close">&times;</span>
+                <p>Skriv din fråga</p>
+               <!--lägg till form om du vill ha snabel a tvång -->
+                <input type="text" name="text" placeholder="Jag undrar..."><br>
+                
+                <input id="starta" type="submit" value="Starta chatt"><br>
+              </div> </div><button id="myBtn">?</button>
+
+
+    </main>
+    <footer id="index-footer">
+        Senast uppdaterad 2019-10-16
+     </footer>
+      <script src="geo.js"></script>
+</body>
+</html>
